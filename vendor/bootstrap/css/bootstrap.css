@@ -3602,6 +3602,7 @@ tbody.collapse.show {
   -ms-flex-pack: justify;
       justify-content: space-between;
   padding: 0.5rem 1rem;
+    
 }
 
 .navbar > .container,
@@ -3614,6 +3615,7 @@ tbody.collapse.show {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
+    
 }
 
 .navbar-brand {
@@ -3624,10 +3626,14 @@ tbody.collapse.show {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+    
+    
 }
 
 .navbar-brand:focus, .navbar-brand:hover {
   text-decoration: none;
+    
+    
 }
 
 .navbar-nav {
@@ -3638,6 +3644,7 @@ tbody.collapse.show {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+    background-color: crimson;
 }
 
 .navbar-nav .nav-link {
