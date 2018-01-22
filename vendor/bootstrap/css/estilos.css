@@ -1,10 +1,38 @@
-.img-principal{
+.box-img-nav {
+    width: 75px;
+    margin-right: 20px;
     
+}
+.img-principal{
     max-width: 100%;
     height: auto;
 }
 
 .portada{
-    max-width: 100px;
-    height: 100px;
+    max-width: 100%;
+    
 }
+
+.carousel{
+    margin-top:45px; 
+}
+
+@media only screen and (max-width: 767px) {
+.box-img-nav {
+    width: 50px;
+    margin-right: 0px; 
+}
+
+  
+}
+@media only screen and (max-width: 437px) {
+.box-img-nav {
+    width: 50px;
+    margin-right: 0px; 
+}
+.carousel{
+    margin-top:140px; 
+}
+  
+}
+
