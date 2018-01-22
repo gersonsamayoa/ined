@@ -14,6 +14,7 @@
 }
 
 .carousel{
+    position: relative;
     margin-top:45px; 
 }
 
@@ -21,9 +22,7 @@
 .box-img-nav {
     width: 50px;
     margin-right: 0px; 
-}
-
-  
+} 
 }
 @media only screen and (max-width: 437px) {
 .box-img-nav {
@@ -31,8 +30,17 @@
     margin-right: 0px; 
 }
 .carousel{
+    margin-top:88px; 
+} 
+}
+
+@media only screen and (max-width: 378px) {
+.box-img-nav {
+    width: 50px;
+    margin-right: 0px; 
+}
+.carousel{
     margin-top:140px; 
 }
-  
 }
 
