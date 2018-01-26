@@ -34,3 +34,23 @@
 }
 }
 
+.row{
+    margin-bottom: 1rem;
+}
+
+.table-hover{
+    color: crimson;
+    background-color:beige;
+    }
+
+.table-hover th{
+    color: blue;
+    border-color:crimson;
+    border: crimson 2px solid;
+}
+
+.table-hover td{
+    color: chartreuse;
+    border-color: crimson;
+    border: crimson 2px solid;
+}
